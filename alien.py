@@ -16,7 +16,7 @@ class Alien(Sprite):
         self.a = 0
         if (stats.level == 2) & (self.a == 0):
             self.image = pygame.image.load('images/long1.bmp')
-            #           print(stats.level)
+            print(stats.level)
             self.a = 1
         else:
             self.image = pygame.image.load('images/eye.bmp')
